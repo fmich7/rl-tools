@@ -1,0 +1,28 @@
+{% extends 'html/index.html' %}
+
+{% block body %}
+    <table>
+            <tr>
+                <td class="cell">Items</td>
+                {% for itemColor in colors %}
+                    <td class="cell price-cell" style="background-color: #{{ colors[itemColor] }}">{{ itemColor }}</td>
+                {% endfor %}
+            </tr>
+        {% for item in prices[0] %}
+            <tr>
+                <td class="cell">{{ item }}</td>
+                {% for itemColor in prices[0][item] %}
+                    <td class="cell price-cell" style="background-color: #{{ prices[0][item][itemColor].get('color', colors[itemColor]) }}">
+                        {{ prices[0][item][itemColor]['price'] }} 
+                        <span style="font-size: 11px;">
+                            {{ prices[0][item][itemColor].get('difference', '')}}
+                        </span>
+                    </td>
+                {% endfor %}
+            </tr>
+            
+        {% endfor %}
+    </table>
+    <p id="save-text">Save prices to database</p>
+    <input class="btn-save" type="button" id="save" value="Save data" />
+{% endblock %}

@@ -1,0 +1,36 @@
+{% extends 'html/index.html' %}
+
+{% block body %}
+    {% for i in range(prices | length) %}
+        <table class="o-table">
+            <tr>
+                <td>
+                    <div class="top_row">
+                        {% for item in prices[i]%}
+                            {% for itemColor in prices[i][item] %}
+                                <div class="item">
+                                    <p class="item-text">{{ item }}</p>
+                                    <hr class="item-line" style="background-color: #{{ colors[itemColor] }}">
+                                </div>
+                            {% endfor %}
+                        {% endfor %}
+                    </div>
+                </td>
+                <td>
+                    <div class="top_row">
+                        {% for item in prices[i]%}
+                            {% for itemColor in prices[i][item] %}
+                                <div class="item">
+                                    <p class="price-text" style="background-color: #{{ prices[i][item][itemColor].get('color', '0B2429') }}">{{ prices[i][item][itemColor]['price'] }}</p>
+                                    <p class="price-difference">100</p>
+                                    <hr class="item-line" style="background-color: #{{ colors[itemColor] }}">
+                                </div>
+                            {% endfor %}
+                        {% endfor %}
+                    </div>
+                </td>
+            </tr>
+
+        </table>
+    {% endfor %}
+{% endblock %}

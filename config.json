@@ -1,0 +1,181 @@
+{
+    "items":{
+       "all-items":[
+          "Emerald",
+          "Standard",
+          "Sparkles",
+          "Draco",
+          "Jolt Bangle III",
+          "Gripstride HX: Inverted",
+          "Maverick GXT",
+          "Halo",
+          "Octane",
+          "Fennec",
+          "Emerald",
+          "Electroshock",
+          "Sub-Zero",
+          "Hellfire",
+          "Glorifier",
+          "Slipstream",
+          "Trigon",
+          "Magma",
+          "Singularity",
+          "Reaper",
+          "Big Splash",
+          "Dissolver",
+          "Interstellar",
+          "Stipple Gait",
+          "Heatwave",
+          "Mainframe",
+          "Fire God",
+          "Tidal Stream",
+          "20xx",
+          "Bubbly",
+          "Chameleon",
+          "Zomba"
+       ],
+       "my-offers":[
+          {
+             "CRL Eastern [Dominus]": "no",
+             "Dueling Dragons": "no",
+             "Motormouth": "no",
+             "Crown": "tw"
+          },
+          {
+             "Alchemist":"bl",
+             "Sunburst":"bl",
+             "OEM":"bl",
+             "Stern":"bl",
+             "Neptune":"bl",
+             "Octavian":"bl",
+             "Invader":"bl",
+             "Reaper": "tw"
+          },
+          {
+            "Butterflies": "no",
+            "Apparatus: Inverted": "tw",
+            "Dieci": "tw",
+            "Gravity Bomb": "bl",
+            "Dune Racer [Octane]": "no",
+            "Glaive: Inverted": "tw",
+            "Jäger 619": "bl",
+            "RLCS X [Octane]": "bl",
+            "Overgrowth": "tw",
+            "Dominus": "li"
+          },
+          {
+            "Halo": "bl-tw-gr-cr-pi-co-sb-pu"
+          },
+          {
+             "Standard":"tw-bl",
+             "Sparkles":"tw-cr",
+             "RLCS X [Octane]":"bl",
+             "Jäger 619":"tw",
+             "Zomba":"no",
+             "Jolt Bangle III":"tw",
+             "Gripstride HX: Inverted":"tw",
+             "Maverick GXT":"tw"
+          },
+          {
+            "Fennec":"no-gr-cr-pi-co-sb-li-fo-or-pu"
+          },
+          {
+            "Dissolver": "no",
+            "Interstellar": "no",
+            "Stipple Gait": "no",
+            "Heatwave": "no",
+            "Mainframe": "no",
+            "Fire God": "no",
+            "Tidal Stream": "no",
+            "20xx": "no",
+            "Bubbly": "no",
+            "Chameleon": "no"
+          },
+          {
+            "Octane":"gr-cr-pi-co-sb-sa-li-fo-or-pu"
+          },
+          {
+             "Zomba":"bl-tw-gr-cr-sb",
+             "Draco":"bl-tw-gr-cr-sb"
+          },
+          {
+             "Electroshock": "no",
+             "Sub-Zero": "no",
+             "Hellfire": "no",
+             "Glorifier": "no",
+             "Slipstream": "no",
+             "Trigon": "no",
+             "Magma": "no",
+             "Singularity": "no",
+             "Reaper": "no",
+             "Big Splash": "no"
+          }
+       ]
+    },
+    "settings":{
+       "dict_paintsToHexColors":{
+          "Normal":"6b624a",
+          "Black":"1a1a1a",
+          "Titanium White":"787878",
+          "Grey":"454545",
+          "Crimson":"6b0d0d",
+          "Pink":"990681",
+          "Cobalt":"06147a",
+          "Sky Blue":"06707a",
+          "Burnt Sienna":"7a4206",
+          "Saffron":"969602",
+          "Lime":"007527",
+          "Forest Green":"003d03",
+          "Orange":"7a6600",
+          "Purple":"4b007a"
+       },
+       "list_paints":[
+          "Normal",
+          "Black",
+          "Titanium White",
+          "Grey",
+          "Crimson",
+          "Pink",
+          "Cobalt",
+          "Sky Blue",
+          "Burnt Sienna",
+          "Saffron",
+          "Lime",
+          "Forest Green",
+          "Orange",
+          "Purple"
+       ],
+       "list_shortPaints":[
+          "no",
+          "bl",
+          "tw",
+          "gr",
+          "cr",
+          "pi",
+          "co",
+          "sb",
+          "bs",
+          "sa",
+          "li",
+          "fo",
+          "or",
+          "pu"
+       ],
+       "priceCell_colors":{
+          "Normal":"6b624a",
+          "Black":"1a1a1a",
+          "Titanium White":"787878",
+          "Grey":"454545",
+          "Crimson":"6b0d0d",
+          "Pink":"990681",
+          "Cobalt":"06147a",
+          "Sky Blue":"06707a",
+          "Burnt Sienna":"7a4206",
+          "Saffron":"969602",
+          "Lime":"007527",
+          "Forest Green":"003d03",
+          "Orange":"7a6600",
+          "Purple":"4b007a"
+       }
+    }
+ }
