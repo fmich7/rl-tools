@@ -2,9 +2,9 @@
 RL-pricetracker is a small python website made in Flask that fetches data from [rl.insider.gg](https://rl.insider.gg/). The main purpose of this project is to help saving your time. It shows which items' price have changed. Extremely useful when you have many trade offers, and you don't want to waste your time on updating them.
 
 ## Setup
-To run this project install its dependecies:
-`$ pip3 install -r requirements.txt`
-When it's done run server.py and open **127.0.0.1:5000/** in your browser:
+To run this project install its dependecies:  
+`$ pip3 install -r requirements.txt`  
+When it's done run server.py and open **127.0.0.1:5000/** in your browser:  
 ` $ python3 server.py `
 
 ## To-do list
