@@ -8,14 +8,15 @@ When it's done run server.py and open **127.0.0.1:5000/** in your browser:
 ` $ python3 server.py `
 
 ## To-do list
-* Add support for selecting items by it's rarity
+* ~~Add support for selecting items by it's rarity~~
 * Reciving items from data optimization
+* Fix saving prices to file
 * Make website look better 
 * Fix issues
 * Add tests
 
 ## Known issues
-* Sometimes checkPriceDiffWithDatabase() is crashing, to fix it just wipe out `database.json` and modify returnListedPricesToServer() to skip that function
+* ~~Sometimes checkPriceDiffWithDatabase() is crashing, to fix it just wipe out `database.json` and modify returnListedPricesToServer() to skip that function~~
 
 ## Screenshots
 ![List view](https://i.imgur.com/Mdnid8n.png "List view")

@@ -25,7 +25,7 @@ def index():
 @app.route('/save')
 def save():
     savePricesToDatabase()
-    return "asd"
+    return "I don't know if the return is necessary here."
 
 def loadSettingsFromConfig():
     with open("config.json", 'r') as file:

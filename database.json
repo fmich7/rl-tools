@@ -2,70 +2,70 @@
     {
         "Emerald": {
             "Normal": {
-                "price": 130,
+                "price": 50,
                 "color": "3ea200",
-                "difference": 100
+                "difference": 20
             },
             "Black": {
-                "price": 4300,
-                "color": "3ea200",
-                "difference": 100
+                "price": 3400,
+                "color": "e01200",
+                "difference": -800
             },
             "Titanium White": {
-                "price": 14000,
+                "price": 16900,
                 "color": "3ea200",
-                "difference": 100
+                "difference": 3000
             },
             "Grey": {
-                "price": 1800,
-                "color": "3ea200",
-                "difference": 100
+                "price": 1100,
+                "color": "e01200",
+                "difference": -600
             },
             "Crimson": {
-                "price": 4000,
-                "color": "3ea200",
-                "difference": 100
+                "price": 3400,
+                "color": "e01200",
+                "difference": -500
             },
             "Pink": {
-                "price": 1500,
-                "color": "3ea200",
-                "difference": 100
+                "price": 1200,
+                "color": "e01200",
+                "difference": -200
             },
             "Cobalt": {
-                "price": 1600,
-                "color": "3ea200",
-                "difference": 100
+                "price": 900,
+                "color": "e01200",
+                "difference": -600
             },
             "Sky Blue": {
                 "price": "-"
             },
             "Burnt Sienna": {
-                "price": 1000,
-                "color": "3ea200",
-                "difference": 100
+                "price": 800,
+                "color": "e01200",
+                "difference": -100
             },
             "Saffron": {
-                "price": 1600,
-                "color": "3ea200",
-                "difference": 100
+                "price": 1100,
+                "color": "e01200",
+                "difference": -400
             },
             "Lime": {
                 "price": "-"
             },
             "Forest Green": {
-                "price": 1500,
-                "color": "3ea200",
-                "difference": 100
+                "price": 1100,
+                "color": "e01200",
+                "difference": -300
             },
             "Orange": {
-                "price": 1400,
-                "color": "3ea200",
-                "difference": 100
+                "price": 900,
+                "color": "e01200",
+                "difference": -400
             },
             "Purple": {
-                "price": 1800,
-                "color": "3ea200",
-                "difference": 100
+                "price": 1500,
+                "color": "e01200",
+                "difference": -200
             }
         },
         "Standard": {
@@ -73,19 +73,15 @@
                 "price": "-"
             },
             "Black": {
-                "price": 2900,
-                "color": "3ea200",
-                "difference": 100
+                "price": 2700,
+                "color": "e01200",
+                "difference": -100
             },
             "Titanium White": {
-                "price": 900,
-                "color": "3ea200",
-                "difference": 100
+                "price": 800
             },
             "Grey": {
-                "price": 500,
-                "color": "3ea200",
-                "difference": 100
+                "price": 400
             },
             "Crimson": {
                 "price": 500,
@@ -99,32 +95,22 @@
                 "price": "-"
             },
             "Sky Blue": {
-                "price": 350,
-                "color": "3ea200",
-                "difference": 100
+                "price": 250
             },
             "Burnt Sienna": {
-                "price": 150,
-                "color": "3ea200",
-                "difference": 100
+                "price": 50
             },
             "Saffron": {
                 "price": "-"
             },
             "Lime": {
-                "price": 150,
-                "color": "3ea200",
-                "difference": 100
+                "price": 50
             },
             "Forest Green": {
-                "price": 100,
-                "color": "3ea200",
-                "difference": 100
+                "price": 0
             },
             "Orange": {
-                "price": 150,
-                "color": "3ea200",
-                "difference": 100
+                "price": 50
             },
             "Purple": {
                 "price": "-"
@@ -138,74 +124,52 @@
                 "price": "-"
             },
             "Titanium White": {
-                "price": 1300,
+                "price": 1400,
                 "color": "3ea200",
-                "difference": 100
+                "difference": 200
             },
             "Grey": {
-                "price": 300,
-                "color": "3ea200",
-                "difference": 100
+                "price": 200
             },
             "Crimson": {
-                "price": 900,
-                "color": "3ea200",
-                "difference": 100
+                "price": 800
             },
             "Pink": {
-                "price": 200,
-                "color": "3ea200",
-                "difference": 100
+                "price": 100
             },
             "Cobalt": {
-                "price": 300,
-                "color": "3ea200",
-                "difference": 100
+                "price": 200
             },
             "Sky Blue": {
-                "price": 350,
-                "color": "3ea200",
-                "difference": 100
+                "price": 250
             },
             "Burnt Sienna": {
-                "price": 110,
-                "color": "3ea200",
-                "difference": 100
+                "price": 0,
+                "color": "e01200",
+                "difference": -10
             },
             "Saffron": {
-                "price": 200,
-                "color": "3ea200",
-                "difference": 100
+                "price": 100
             },
             "Lime": {
-                "price": 250,
-                "color": "3ea200",
-                "difference": 100
+                "price": 150
             },
             "Forest Green": {
-                "price": 350,
-                "color": "3ea200",
-                "difference": 100
+                "price": 250
             },
             "Orange": {
                 "price": "-"
             },
             "Purple": {
-                "price": 500,
-                "color": "3ea200",
-                "difference": 100
+                "price": 400
             }
         },
         "Draco": {
             "Normal": {
-                "price": 70,
-                "color": "3ea200",
-                "difference": 100
+                "price": -30
             },
             "Black": {
-                "price": 700,
-                "color": "3ea200",
-                "difference": 100
+                "price": 600
             },
             "Titanium White": {
                 "price": 2600,
@@ -213,131 +177,97 @@
                 "difference": 100
             },
             "Grey": {
-                "price": 500,
-                "color": "3ea200",
-                "difference": 100
+                "price": 400
             },
             "Crimson": {
-                "price": 1200,
-                "color": "3ea200",
-                "difference": 100
+                "price": 1100
             },
             "Pink": {
-                "price": 450,
-                "color": "3ea200",
-                "difference": 100
+                "price": 350
             },
             "Cobalt": {
-                "price": 700,
-                "color": "3ea200",
-                "difference": 100
+                "price": 500,
+                "color": "e01200",
+                "difference": -100
             },
             "Sky Blue": {
-                "price": 1100,
-                "color": "3ea200",
-                "difference": 100
+                "price": 1000
             },
             "Burnt Sienna": {
-                "price": 200,
-                "color": "3ea200",
-                "difference": 100
+                "price": 100
             },
             "Saffron": {
-                "price": 300,
-                "color": "3ea200",
-                "difference": 100
+                "price": 200
             },
             "Lime": {
-                "price": 400,
-                "color": "3ea200",
-                "difference": 100
+                "price": 300
             },
             "Forest Green": {
-                "price": 450,
-                "color": "3ea200",
-                "difference": 100
+                "price": 350
             },
             "Orange": {
-                "price": 200,
-                "color": "3ea200",
-                "difference": 100
+                "price": 100
             },
             "Purple": {
-                "price": 800,
-                "color": "3ea200",
-                "difference": 100
+                "price": 700
             }
         },
         "Jolt Bangle III": {
             "Normal": {
-                "price": 50,
-                "color": "3ea200",
-                "difference": 100
+                "price": -50
             },
             "Black": {
-                "price": 300,
-                "color": "3ea200",
-                "difference": 100
+                "price": 100,
+                "color": "e01200",
+                "difference": -100
             },
             "Titanium White": {
-                "price": 700,
-                "color": "3ea200",
-                "difference": 100
+                "price": 600
             },
             "Grey": {
-                "price": 150,
-                "color": "3ea200",
-                "difference": 100
+                "price": 50
             },
             "Crimson": {
-                "price": 100,
+                "price": 50,
                 "color": "3ea200",
-                "difference": 100
+                "difference": 50
             },
             "Pink": {
-                "price": 50,
+                "price": 0,
                 "color": "3ea200",
-                "difference": 100
+                "difference": 50
             },
             "Cobalt": {
-                "price": 50,
+                "price": 100,
                 "color": "3ea200",
-                "difference": 100
+                "difference": 150
             },
             "Sky Blue": {
-                "price": 100,
+                "price": 50,
                 "color": "3ea200",
-                "difference": 100
+                "difference": 50
             },
             "Burnt Sienna": {
-                "price": 50,
-                "color": "3ea200",
-                "difference": 100
+                "price": -50
             },
             "Saffron": {
-                "price": 50,
-                "color": "3ea200",
-                "difference": 100
+                "price": -50
             },
             "Lime": {
-                "price": 50,
+                "price": 0,
                 "color": "3ea200",
-                "difference": 100
+                "difference": 50
             },
             "Forest Green": {
-                "price": 100,
-                "color": "3ea200",
-                "difference": 100
+                "price": 0
             },
             "Orange": {
-                "price": 50,
+                "price": 0,
                 "color": "3ea200",
-                "difference": 100
+                "difference": 50
             },
             "Purple": {
-                "price": 100,
-                "color": "3ea200",
-                "difference": 100
+                "price": 0
             }
         },
         "Gripstride HX: Inverted": {
@@ -350,139 +280,101 @@
                 "difference": 100
             },
             "Titanium White": {
-                "price": 1600,
-                "color": "3ea200",
-                "difference": 100
+                "price": 1500
             },
             "Grey": {
-                "price": 800,
-                "color": "3ea200",
-                "difference": 100
+                "price": 700
             },
             "Crimson": {
-                "price": 900,
-                "color": "3ea200",
-                "difference": 100
+                "price": 800
             },
             "Pink": {
-                "price": 250,
-                "color": "3ea200",
-                "difference": 100
+                "price": 100,
+                "color": "e01200",
+                "difference": -50
             },
             "Cobalt": {
-                "price": 400,
-                "color": "3ea200",
-                "difference": 100
+                "price": 300
             },
             "Sky Blue": {
-                "price": 500,
-                "color": "3ea200",
-                "difference": 100
+                "price": 400
             },
             "Burnt Sienna": {
                 "price": "-"
             },
             "Saffron": {
-                "price": 250,
-                "color": "3ea200",
-                "difference": 100
+                "price": 150
             },
             "Lime": {
-                "price": 250,
-                "color": "3ea200",
-                "difference": 100
+                "price": 150
             },
             "Forest Green": {
-                "price": 200,
-                "color": "3ea200",
-                "difference": 100
+                "price": 100
             },
             "Orange": {
-                "price": 350,
-                "color": "3ea200",
-                "difference": 100
+                "price": 250
             },
             "Purple": {
-                "price": 350,
+                "price": 300,
                 "color": "3ea200",
-                "difference": 100
+                "difference": 50
             }
         },
         "Maverick GXT": {
             "Normal": {
-                "price": 200,
-                "color": "3ea200",
-                "difference": 100
+                "price": 100
             },
             "Black": {
                 "price": "-"
             },
             "Titanium White": {
-                "price": 1400,
-                "color": "3ea200",
-                "difference": 100
+                "price": 1200,
+                "color": "e01200",
+                "difference": -100
             },
             "Grey": {
-                "price": 250,
-                "color": "3ea200",
-                "difference": 100
+                "price": 150
             },
             "Crimson": {
-                "price": 400,
-                "color": "3ea200",
-                "difference": 100
+                "price": 300
             },
             "Pink": {
-                "price": 150,
-                "color": "3ea200",
-                "difference": 100
+                "price": 50
             },
             "Cobalt": {
-                "price": 200,
-                "color": "3ea200",
-                "difference": 100
+                "price": 100
             },
             "Sky Blue": {
-                "price": 300,
-                "color": "3ea200",
-                "difference": 100
+                "price": 200
             },
             "Burnt Sienna": {
-                "price": 100,
-                "color": "3ea200",
-                "difference": 100
+                "price": 0
             },
             "Saffron": {
-                "price": 200,
-                "color": "3ea200",
-                "difference": 100
+                "price": 100
             },
             "Lime": {
-                "price": 200,
+                "price": 150,
                 "color": "3ea200",
-                "difference": 100
+                "difference": 50
             },
             "Forest Green": {
-                "price": 250,
-                "color": "3ea200",
-                "difference": 100
+                "price": 50,
+                "color": "e01200",
+                "difference": -100
             },
             "Orange": {
-                "price": 200,
-                "color": "3ea200",
-                "difference": 100
+                "price": 50,
+                "color": "e01200",
+                "difference": -50
             },
             "Purple": {
-                "price": 250,
-                "color": "3ea200",
-                "difference": 100
+                "price": 150
             }
         },
         "Halo": {
             "Normal": {
-                "price": 100,
-                "color": "3ea200",
-                "difference": 100
+                "price": 0
             },
             "Black": {
                 "price": 400,
@@ -490,64 +382,44 @@
                 "difference": 100
             },
             "Titanium White": {
-                "price": 800,
+                "price": 750,
                 "color": "3ea200",
-                "difference": 100
+                "difference": 50
             },
             "Grey": {
-                "price": 250,
-                "color": "3ea200",
-                "difference": 100
+                "price": 150
             },
             "Crimson": {
-                "price": 500,
-                "color": "3ea200",
-                "difference": 100
+                "price": 400
             },
             "Pink": {
-                "price": 200,
-                "color": "3ea200",
-                "difference": 100
+                "price": 100
             },
             "Cobalt": {
-                "price": 250,
-                "color": "3ea200",
-                "difference": 100
+                "price": 150
             },
             "Sky Blue": {
-                "price": 350,
-                "color": "3ea200",
-                "difference": 100
+                "price": 250
             },
             "Burnt Sienna": {
-                "price": 100,
-                "color": "3ea200",
-                "difference": 100
+                "price": 0
             },
             "Saffron": {
-                "price": 200,
-                "color": "3ea200",
-                "difference": 100
+                "price": 100
             },
             "Lime": {
-                "price": 150,
+                "price": 100,
                 "color": "3ea200",
-                "difference": 100
+                "difference": 50
             },
             "Forest Green": {
-                "price": 200,
-                "color": "3ea200",
-                "difference": 100
+                "price": 100
             },
             "Orange": {
-                "price": 200,
-                "color": "3ea200",
-                "difference": 100
+                "price": 100
             },
             "Purple": {
-                "price": 300,
-                "color": "3ea200",
-                "difference": 100
+                "price": 200
             }
         },
         "Octane": {
@@ -558,94 +430,68 @@
                 "price": "-"
             },
             "Titanium White": {
-                "price": 18000,
-                "color": "3ea200",
-                "difference": 100
+                "price": 16900,
+                "color": "e01200",
+                "difference": -1000
             },
             "Grey": {
-                "price": 950,
-                "color": "3ea200",
-                "difference": 100
+                "price": 850
             },
             "Crimson": {
-                "price": 2500,
+                "price": 2900,
                 "color": "3ea200",
-                "difference": 100
+                "difference": 500
             },
             "Pink": {
-                "price": 900,
-                "color": "3ea200",
-                "difference": 100
+                "price": 800
             },
             "Cobalt": {
-                "price": 950,
-                "color": "3ea200",
-                "difference": 100
+                "price": 800,
+                "color": "e01200",
+                "difference": -50
             },
             "Sky Blue": {
-                "price": 1900,
-                "color": "3ea200",
-                "difference": 100
+                "price": 1800
             },
             "Burnt Sienna": {
-                "price": 250,
-                "color": "3ea200",
-                "difference": 100
+                "price": 150
             },
             "Saffron": {
-                "price": 900,
-                "color": "3ea200",
-                "difference": 100
+                "price": 800
             },
             "Lime": {
-                "price": 1600,
-                "color": "3ea200",
-                "difference": 100
+                "price": 1500
             },
             "Forest Green": {
-                "price": 750,
-                "color": "3ea200",
-                "difference": 100
+                "price": 650
             },
             "Orange": {
-                "price": 750,
-                "color": "3ea200",
-                "difference": 100
+                "price": 650
             },
             "Purple": {
-                "price": 1200,
-                "color": "3ea200",
-                "difference": 100
+                "price": 1100
             }
         },
         "Fennec": {
             "Normal": {
-                "price": 800,
-                "color": "3ea200",
-                "difference": 100
+                "price": 700
             },
             "Black": {
                 "price": "-"
             },
             "Titanium White": {
-                "price": 11000,
+                "price": 12900,
                 "color": "3ea200",
-                "difference": 100
+                "difference": 2000
             },
             "Grey": {
-                "price": 1200,
-                "color": "3ea200",
-                "difference": 100
+                "price": 1100
             },
             "Crimson": {
-                "price": 1900,
-                "color": "3ea200",
-                "difference": 100
+                "price": 1800
             },
             "Pink": {
-                "price": 1000,
-                "color": "3ea200",
-                "difference": 100
+                "price": 900
             },
             "Cobalt": {
                 "price": 1100,
@@ -653,24 +499,16 @@
                 "difference": 100
             },
             "Sky Blue": {
-                "price": 1800,
-                "color": "3ea200",
-                "difference": 100
+                "price": 1700
             },
             "Burnt Sienna": {
-                "price": 900,
-                "color": "3ea200",
-                "difference": 100
+                "price": 800
             },
             "Saffron": {
-                "price": 1000,
-                "color": "3ea200",
-                "difference": 100
+                "price": 900
             },
             "Lime": {
-                "price": 1100,
-                "color": "3ea200",
-                "difference": 100
+                "price": 1000
             },
             "Forest Green": {
                 "price": 900,
@@ -678,21 +516,17 @@
                 "difference": 100
             },
             "Orange": {
-                "price": 950,
-                "color": "3ea200",
-                "difference": 100
+                "price": 800,
+                "color": "e01200",
+                "difference": -50
             },
             "Purple": {
-                "price": 1200,
-                "color": "3ea200",
-                "difference": 100
+                "price": 1100
             }
         },
         "Electroshock": {
             "Normal": {
-                "price": 550,
-                "color": "3ea200",
-                "difference": 100
+                "price": 450
             },
             "Black": {
                 "price": "-"
@@ -736,81 +570,77 @@
         },
         "Sub-Zero": {
             "Normal": {
-                "price": 500,
-                "color": "3ea200",
-                "difference": 100
+                "price": 400
             },
             "Black": {
-                "price": 6600,
-                "color": "3ea200",
-                "difference": 100
+                "price": 6100,
+                "color": "e01200",
+                "difference": -400
             },
             "Titanium White": {
-                "price": 13000,
-                "color": "3ea200",
-                "difference": 100
+                "price": 11900,
+                "color": "e01200",
+                "difference": -1000
             },
             "Grey": {
-                "price": 6400,
-                "color": "3ea200",
-                "difference": 100
+                "price": 5400,
+                "color": "e01200",
+                "difference": -900
             },
             "Crimson": {
-                "price": 4900,
-                "color": "3ea200",
-                "difference": 100
+                "price": 4400,
+                "color": "e01200",
+                "difference": -400
             },
             "Pink": {
-                "price": 2700,
-                "color": "3ea200",
-                "difference": 100
+                "price": 2400,
+                "color": "e01200",
+                "difference": -200
             },
             "Cobalt": {
-                "price": 3000,
-                "color": "3ea200",
-                "difference": 100
+                "price": 2600,
+                "color": "e01200",
+                "difference": -300
             },
             "Sky Blue": {
-                "price": 4800,
-                "color": "3ea200",
-                "difference": 100
+                "price": 4500,
+                "color": "e01200",
+                "difference": -200
             },
             "Burnt Sienna": {
-                "price": 1900,
-                "color": "3ea200",
-                "difference": 100
+                "price": 1600,
+                "color": "e01200",
+                "difference": -200
             },
             "Saffron": {
-                "price": 3000,
-                "color": "3ea200",
-                "difference": 100
+                "price": 2700,
+                "color": "e01200",
+                "difference": -200
             },
             "Lime": {
-                "price": 4100,
-                "color": "3ea200",
-                "difference": 100
+                "price": 3700,
+                "color": "e01200",
+                "difference": -300
             },
             "Forest Green": {
-                "price": 2900,
-                "color": "3ea200",
-                "difference": 100
+                "price": 2700,
+                "color": "e01200",
+                "difference": -100
             },
             "Orange": {
-                "price": 2600,
-                "color": "3ea200",
-                "difference": 100
+                "price": 2400,
+                "color": "e01200",
+                "difference": -100
             },
             "Purple": {
-                "price": 4500,
-                "color": "3ea200",
-                "difference": 100
+                "price": 3700,
+                "color": "e01200",
+                "difference": -700
             }
         },
         "Hellfire": {
             "Normal": {
-                "price": 650,
-                "color": "3ea200",
-                "difference": 100
+                "price": 550
             },
             "Black": {
                 "price": "-"
@@ -854,9 +684,7 @@
         },
         "Glorifier": {
             "Normal": {
-                "price": 650,
-                "color": "3ea200",
-                "difference": 100
+                "price": 550
             },
             "Black": {
                 "price": "-"
@@ -900,9 +728,7 @@
         },
         "Slipstream": {
             "Normal": {
-                "price": 500,
-                "color": "3ea200",
-                "difference": 100
+                "price": 400
             },
             "Black": {
                 "price": "-"
@@ -946,9 +772,9 @@
         },
         "Trigon": {
             "Normal": {
-                "price": 300,
-                "color": "3ea200",
-                "difference": 100
+                "price": 150,
+                "color": "e01200",
+                "difference": -50
             },
             "Black": {
                 "price": "-"
@@ -962,61 +788,43 @@
                 "price": "-"
             },
             "Crimson": {
-                "price": 600,
-                "color": "3ea200",
-                "difference": 100
+                "price": 500
             },
             "Pink": {
-                "price": 500,
-                "color": "3ea200",
-                "difference": 100
+                "price": 400
             },
             "Cobalt": {
-                "price": 500,
-                "color": "3ea200",
-                "difference": 100
+                "price": 400
             },
             "Sky Blue": {
-                "price": 600,
-                "color": "3ea200",
-                "difference": 100
+                "price": 500
             },
             "Burnt Sienna": {
-                "price": 350,
+                "price": 300,
                 "color": "3ea200",
-                "difference": 100
+                "difference": 50
             },
             "Saffron": {
-                "price": 500,
-                "color": "3ea200",
-                "difference": 100
+                "price": 400
             },
             "Lime": {
-                "price": 600,
-                "color": "3ea200",
-                "difference": 100
+                "price": 500
             },
             "Forest Green": {
-                "price": 500,
-                "color": "3ea200",
-                "difference": 100
+                "price": 400
             },
             "Orange": {
-                "price": 500,
-                "color": "3ea200",
-                "difference": 100
+                "price": 400
             },
             "Purple": {
-                "price": 600,
-                "color": "3ea200",
-                "difference": 100
+                "price": 500
             }
         },
         "Magma": {
             "Normal": {
-                "price": 300,
-                "color": "3ea200",
-                "difference": 100
+                "price": 150,
+                "color": "e01200",
+                "difference": -50
             },
             "Black": {
                 "price": "-"
@@ -1060,151 +868,97 @@
         },
         "Singularity": {
             "Normal": {
-                "price": 250,
-                "color": "3ea200",
-                "difference": 100
+                "price": 150
             },
             "Black": {
-                "price": 1100,
-                "color": "3ea200",
-                "difference": 100
+                "price": 800,
+                "color": "e01200",
+                "difference": -200
             },
             "Titanium White": {
-                "price": 1800,
-                "color": "3ea200",
-                "difference": 100
+                "price": 1700
             },
             "Grey": {
-                "price": 600,
-                "color": "3ea200",
-                "difference": 100
+                "price": 500
             },
             "Crimson": {
-                "price": 800,
-                "color": "3ea200",
-                "difference": 100
+                "price": 700
             },
             "Pink": {
-                "price": 600,
-                "color": "3ea200",
-                "difference": 100
+                "price": 500
             },
             "Cobalt": {
-                "price": 600,
-                "color": "3ea200",
-                "difference": 100
+                "price": 500
             },
             "Sky Blue": {
-                "price": 800,
-                "color": "3ea200",
-                "difference": 100
+                "price": 700
             },
             "Burnt Sienna": {
-                "price": 500,
-                "color": "3ea200",
-                "difference": 100
+                "price": 400
             },
             "Saffron": {
-                "price": 600,
-                "color": "3ea200",
-                "difference": 100
+                "price": 500
             },
             "Lime": {
-                "price": 700,
-                "color": "3ea200",
-                "difference": 100
+                "price": 600
             },
             "Forest Green": {
-                "price": 600,
-                "color": "3ea200",
-                "difference": 100
+                "price": 500
             },
             "Orange": {
-                "price": 600,
-                "color": "3ea200",
-                "difference": 100
+                "price": 500
             },
             "Purple": {
-                "price": 600,
-                "color": "3ea200",
-                "difference": 100
+                "price": 500
             }
         },
         "Reaper": {
             "Normal": {
-                "price": 900,
-                "color": "3ea200",
-                "difference": 100
+                "price": 800
             },
             "Black": {
-                "price": 11000,
-                "color": "3ea200",
-                "difference": 100
+                "price": 10900
             },
             "Titanium White": {
-                "price": 14000,
-                "color": "3ea200",
-                "difference": 100
+                "price": 13900
             },
             "Grey": {
-                "price": 3500,
-                "color": "3ea200",
-                "difference": 100
+                "price": 3400
             },
             "Crimson": {
-                "price": 4000,
-                "color": "3ea200",
-                "difference": 100
+                "price": 3900
             },
             "Pink": {
-                "price": 3300,
-                "color": "3ea200",
-                "difference": 100
+                "price": 3200
             },
             "Cobalt": {
-                "price": 3200,
-                "color": "3ea200",
-                "difference": 100
+                "price": 3100
             },
             "Sky Blue": {
-                "price": 5000,
-                "color": "3ea200",
-                "difference": 100
+                "price": 4900
             },
             "Burnt Sienna": {
-                "price": 3000,
-                "color": "3ea200",
-                "difference": 100
+                "price": 2900
             },
             "Saffron": {
-                "price": 3800,
-                "color": "3ea200",
-                "difference": 100
+                "price": 3700
             },
             "Lime": {
-                "price": 3700,
-                "color": "3ea200",
-                "difference": 100
+                "price": 3600
             },
             "Forest Green": {
-                "price": 3700,
-                "color": "3ea200",
-                "difference": 100
+                "price": 3600
             },
             "Orange": {
                 "price": "-"
             },
             "Purple": {
-                "price": 5400,
-                "color": "3ea200",
-                "difference": 100
+                "price": 5300
             }
         },
         "Big Splash": {
             "Normal": {
-                "price": 950,
-                "color": "3ea200",
-                "difference": 100
+                "price": 850
             },
             "Black": {
                 "price": "-"
@@ -1248,9 +1002,7 @@
         },
         "Dissolver": {
             "Normal": {
-                "price": 2200,
-                "color": "3ea200",
-                "difference": 100
+                "price": 2100
             },
             "Black": {
                 "price": "-"
@@ -1294,9 +1046,9 @@
         },
         "Interstellar": {
             "Normal": {
-                "price": 1800,
+                "price": 1750,
                 "color": "3ea200",
-                "difference": 100
+                "difference": 50
             },
             "Black": {
                 "price": 2000,
@@ -1304,34 +1056,24 @@
                 "difference": 100
             },
             "Titanium White": {
-                "price": 2600,
-                "color": "3ea200",
-                "difference": 100
+                "price": 2500
             },
             "Grey": {
-                "price": 1500,
-                "color": "3ea200",
-                "difference": 100
+                "price": 1400
             },
             "Crimson": {
-                "price": 1900,
-                "color": "3ea200",
-                "difference": 100
+                "price": 1800
             },
             "Pink": {
-                "price": 1900,
-                "color": "3ea200",
-                "difference": 100
+                "price": 1800
             },
             "Cobalt": {
-                "price": 1700,
-                "color": "3ea200",
-                "difference": 100
+                "price": 1500,
+                "color": "e01200",
+                "difference": -100
             },
             "Sky Blue": {
-                "price": 2000,
-                "color": "3ea200",
-                "difference": 100
+                "price": 1900
             },
             "Burnt Sienna": {
                 "price": 1200,
@@ -1339,36 +1081,28 @@
                 "difference": 100
             },
             "Saffron": {
-                "price": 1300,
-                "color": "3ea200",
-                "difference": 100
+                "price": 1200
             },
             "Lime": {
-                "price": 1400,
-                "color": "3ea200",
-                "difference": 100
+                "price": 1300
             },
             "Forest Green": {
-                "price": 1600,
-                "color": "3ea200",
-                "difference": 100
+                "price": 1500
             },
             "Orange": {
-                "price": 1600,
-                "color": "3ea200",
-                "difference": 100
+                "price": 1300,
+                "color": "e01200",
+                "difference": -200
             },
             "Purple": {
-                "price": 2000,
-                "color": "3ea200",
-                "difference": 100
+                "price": 1800,
+                "color": "e01200",
+                "difference": -100
             }
         },
         "Stipple Gait": {
             "Normal": {
-                "price": 1600,
-                "color": "3ea200",
-                "difference": 100
+                "price": 1500
             },
             "Black": {
                 "price": "-"
@@ -1412,9 +1146,7 @@
         },
         "Heatwave": {
             "Normal": {
-                "price": 1400,
-                "color": "3ea200",
-                "difference": 100
+                "price": 1300
             },
             "Black": {
                 "price": "-"
@@ -1458,79 +1190,53 @@
         },
         "Mainframe": {
             "Normal": {
-                "price": 1600,
-                "color": "3ea200",
-                "difference": 100
+                "price": 1500
             },
             "Black": {
-                "price": 4200,
-                "color": "3ea200",
-                "difference": 100
+                "price": 4100
             },
             "Titanium White": {
-                "price": 17000,
-                "color": "3ea200",
-                "difference": 100
+                "price": 16900
             },
             "Grey": {
                 "price": "-"
             },
             "Crimson": {
-                "price": 3100,
+                "price": 3200,
                 "color": "3ea200",
-                "difference": 100
+                "difference": 200
             },
             "Pink": {
-                "price": 2200,
-                "color": "3ea200",
-                "difference": 100
+                "price": 2100
             },
             "Cobalt": {
-                "price": 2000,
-                "color": "3ea200",
-                "difference": 100
+                "price": 1900
             },
             "Sky Blue": {
-                "price": 2600,
-                "color": "3ea200",
-                "difference": 100
+                "price": 2500
             },
             "Burnt Sienna": {
-                "price": 1200,
-                "color": "3ea200",
-                "difference": 100
+                "price": 1100
             },
             "Saffron": {
-                "price": 1600,
-                "color": "3ea200",
-                "difference": 100
+                "price": 1500
             },
             "Lime": {
-                "price": 1600,
-                "color": "3ea200",
-                "difference": 100
+                "price": 1500
             },
             "Forest Green": {
-                "price": 1500,
-                "color": "3ea200",
-                "difference": 100
+                "price": 1400
             },
             "Orange": {
-                "price": 1500,
-                "color": "3ea200",
-                "difference": 100
+                "price": 1400
             },
             "Purple": {
-                "price": 1800,
-                "color": "3ea200",
-                "difference": 100
+                "price": 1700
             }
         },
         "Fire God": {
             "Normal": {
-                "price": 1400,
-                "color": "3ea200",
-                "difference": 100
+                "price": 1300
             },
             "Black": {
                 "price": "-"
@@ -1574,9 +1280,7 @@
         },
         "Tidal Stream": {
             "Normal": {
-                "price": 1200,
-                "color": "3ea200",
-                "difference": 100
+                "price": 1100
             },
             "Black": {
                 "price": "-"
@@ -1620,19 +1324,15 @@
         },
         "20xx": {
             "Normal": {
-                "price": 800,
-                "color": "3ea200",
-                "difference": 100
+                "price": 700
             },
             "Black": {
-                "price": 1100,
-                "color": "3ea200",
-                "difference": 100
+                "price": 1000
             },
             "Titanium White": {
-                "price": 2100,
-                "color": "3ea200",
-                "difference": 100
+                "price": 1900,
+                "color": "e01200",
+                "difference": -100
             },
             "Grey": {
                 "price": 800,
@@ -1640,61 +1340,43 @@
                 "difference": 100
             },
             "Crimson": {
-                "price": 1000,
-                "color": "3ea200",
-                "difference": 100
+                "price": 900
             },
             "Pink": {
-                "price": 1000,
-                "color": "3ea200",
-                "difference": 100
+                "price": 900
             },
             "Cobalt": {
-                "price": 1000,
-                "color": "3ea200",
-                "difference": 100
+                "price": 800,
+                "color": "e01200",
+                "difference": -100
             },
             "Sky Blue": {
-                "price": 1600,
-                "color": "3ea200",
-                "difference": 100
+                "price": 1500
             },
             "Burnt Sienna": {
-                "price": 600,
-                "color": "3ea200",
-                "difference": 100
+                "price": 500
             },
             "Saffron": {
-                "price": 1000,
-                "color": "3ea200",
-                "difference": 100
+                "price": 900
             },
             "Lime": {
-                "price": 1000,
-                "color": "3ea200",
-                "difference": 100
+                "price": 900
             },
             "Forest Green": {
-                "price": 700,
+                "price": 800,
                 "color": "3ea200",
-                "difference": 100
+                "difference": 200
             },
             "Orange": {
-                "price": 900,
-                "color": "3ea200",
-                "difference": 100
+                "price": 800
             },
             "Purple": {
-                "price": 1100,
-                "color": "3ea200",
-                "difference": 100
+                "price": 1000
             }
         },
         "Bubbly": {
             "Normal": {
-                "price": 750,
-                "color": "3ea200",
-                "difference": 100
+                "price": 650
             },
             "Black": {
                 "price": "-"
@@ -1738,9 +1420,7 @@
         },
         "Chameleon": {
             "Normal": {
-                "price": 600,
-                "color": "3ea200",
-                "difference": 100
+                "price": 500
             },
             "Black": {
                 "price": "-"
@@ -1784,14 +1464,10 @@
         },
         "Zomba": {
             "Normal": {
-                "price": 80,
-                "color": "3ea200",
-                "difference": 100
+                "price": -20
             },
             "Black": {
-                "price": 950,
-                "color": "3ea200",
-                "difference": 100
+                "price": 850
             },
             "Titanium White": {
                 "price": 3100,
@@ -1799,39 +1475,25 @@
                 "difference": 100
             },
             "Grey": {
-                "price": 900,
-                "color": "3ea200",
-                "difference": 100
+                "price": 800
             },
             "Crimson": {
-                "price": 800,
-                "color": "3ea200",
-                "difference": 100
+                "price": 700
             },
             "Pink": {
-                "price": 600,
-                "color": "3ea200",
-                "difference": 100
+                "price": 500
             },
             "Cobalt": {
-                "price": 600,
-                "color": "3ea200",
-                "difference": 100
+                "price": 500
             },
             "Sky Blue": {
-                "price": 1000,
-                "color": "3ea200",
-                "difference": 100
+                "price": 900
             },
             "Burnt Sienna": {
-                "price": 200,
-                "color": "3ea200",
-                "difference": 100
+                "price": 100
             },
             "Saffron": {
-                "price": 500,
-                "color": "3ea200",
-                "difference": 100
+                "price": 400
             },
             "Lime": {
                 "price": 500,
@@ -1839,19 +1501,15 @@
                 "difference": 100
             },
             "Forest Green": {
-                "price": 500,
-                "color": "3ea200",
-                "difference": 100
+                "price": 400
             },
             "Orange": {
-                "price": 250,
+                "price": 200,
                 "color": "3ea200",
-                "difference": 100
+                "difference": 50
             },
             "Purple": {
-                "price": 800,
-                "color": "3ea200",
-                "difference": 100
+                "price": 700
             }
         }
     }

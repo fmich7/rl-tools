@@ -11,7 +11,8 @@ list_searchedItems = list()
 
 itemsPriceData = dict()
 
-#TODO: fix saving prices, ui, fix same name items error
+#TODO: fix saving prices, ui
+#! FIXED: not existing items handling, item selechtion by its rarity, load empty db
 
 #loads settings from config
 def loadSettingsFromConfig() -> None:
@@ -28,6 +29,7 @@ def savePricesToDatabase() -> None:
     with open('database.json', 'w') as file:
         file.truncate(0)
         file.seek(0)
+        global itemsPriceData
         json.dump(itemsPriceData, file, indent=4)
 
 #recives item container from website
@@ -39,15 +41,19 @@ def getPricesContainer():
     return items
 
 #find items in container
-def getSearchedItems(items: list, priceContainer) -> dict:
+#items {"normal-items" : list, "special-items": list(dict)}
+def getSearchedItems(items: dict, priceContainer) -> dict:
     itemsDict = dict()
     className = 'priceRange'
-    
-    #get price list
-    for i in items:
+    #list
+    for i in items["normal-items"]:
+        item = priceContainer.find('tr', attrs={'data-itemenglishname':i})
+        if item is None:
+            items.remove(i)
+            continue
+        item = item.find_all('td', class_=className)
         itemsDict[i] = dict()
         result = list()
-        item = priceContainer.find('tr', attrs={'data-itemenglishname':i}).find_all('td', class_=className)
 
         for prices in item:
             if 'invisibleColumn' in str(prices):
@@ -65,10 +71,41 @@ def getSearchedItems(items: list, priceContainer) -> dict:
         #fill blank paint prices [ncoloritem]
         while len(result) < len(list_paints):
             result.append('-')
-
+        
         for j in range(len(list_paints)):
             itemsDict[i].update({list_paints[j]: {'price': result[j]}})
+    #dict
+    for i in items["special-items"]:
+        item_name = list(i.keys())[0]
+        item = priceContainer.find('tr', attrs={'data-itemenglishname':item_name, 'data-itemrarity':f'|{i[item_name]["rarity"]}|'})
+        if item is None:
+            items.remove(i)
+            continue
+        #item = item.find('tr', attrs={'data-itemrarity':f'|{i[item_name]["rarity"]}|'})
+        item = item.find_all('td', class_=className)
+        itemsDict[item_name] = dict()
+        result = list()
 
+        for prices in item:
+            if 'invisibleColumn' in str(prices):
+                continue
+            
+            #'k' contains price range
+            priceDict = json.loads(prices.get('data-info'))
+            if priceDict is not None and 'pc' in priceDict['k']:
+                priceRange = priceDict['k']['pc']
+            else:
+                priceRange = "-"
+            
+            result.append(priceRange)
+        
+        #fill blank paint prices [ncoloritem]
+        while len(result) < len(list_paints):
+            result.append('-')
+        
+        for j in range(len(list_paints)):
+            itemsDict[item_name].update({list_paints[j]: {'price': result[j]}})
+    print(itemsDict)
     return itemsDict
 
 #take minimum price and update the list
@@ -100,8 +137,11 @@ def calculateQuickSellPrice(items: list, value: int) -> list:
 def checkPriceDiffWithDatabase(items: list) -> dict:
     pricesFromDatabase = dict()
     diffColors = ['e01200', '3ea200']
-    with open('database.json', 'r') as file:
-        pricesFromDatabase = json.load(file)[0]
+    try:
+        with open('database.json', 'r') as file:
+            pricesFromDatabase = json.load(file)[0]
+    except json.decoder.JSONDecodeError:
+        return items
     #l-tabindex
     for l in range(len(items)):
         for item in pricesFromDatabase:
@@ -115,7 +155,6 @@ def checkPriceDiffWithDatabase(items: list) -> dict:
                     continue
                 if newPrice != oldPrice:
                     difference = newPrice - oldPrice
-                    print(newPrice, oldPrice)
                     color = diffColors[difference > 0]
                     items[l][item][i].update({'color': color, 'difference': difference})
     
@@ -126,18 +165,32 @@ def getInOrderedPrices(priceContainer) -> list:
     dict_pricesInOrdered = list()
     with open('config.json', 'r') as file:
         data = json.load(file)
-    items = list()
-    for offer in data['items']['my-offers']:
-        for item in offer:
-            items.append(item)
-    prices = getSearchedItems(items, priceContainer)
+
+    #which items are searched?
+    items_normal = list()
+    items_special = list()
     my_offers = data["items"]["my-offers"]
+    for offer in my_offers:
+        for item in offer:
+            if type(offer[item]) is dict:
+                items_special.append({item: offer[item]})
+            else:
+                items_normal.append(item)
+    items = {"normal-items": items_normal, "special-items": items_special}
+    prices = getSearchedItems(items, priceContainer)
     
     for i in range(len(my_offers)):
         temp = dict()
         for item in my_offers[i]:
+            #skips item if it's not existing in data
+            if item not in prices:
+                continue
+
             temp[item] = dict()
-            paints = my_offers[i][item].split('-')
+            if type(my_offers[i][item]) is dict:
+                paints = my_offers[i][item]['paints'].split('-')
+            else:
+                paints = my_offers[i][item].split('-')
             full_paintNames = [list_paints[list_shortPaints.index(x)] for x in paints]
             for paint in list_paints:
                 if paint in full_paintNames:
@@ -151,14 +204,14 @@ def getInOrderedPrices(priceContainer) -> list:
 
 #returns as list_view
 def returnListedPricesToServer(priceReduction = 100) -> dict:
-    prices = [getSearchedItems(list_searchedItems, getPricesContainer())]
+    items = {"normal-items": list_searchedItems, "special-items": list()}
+    prices = [getSearchedItems(items, getPricesContainer())]
     min_prices = takeMinPriceFromRange(prices)
+    checkedPrices = checkPriceDiffWithDatabase(min_prices)
+    firm_prices = calculateQuickSellPrice(checkedPrices, priceReduction)
 
     global itemsPriceData
     itemsPriceData = min_prices
-
-    checkedPrices = checkPriceDiffWithDatabase(min_prices)
-    firm_prices = calculateQuickSellPrice(checkedPrices, priceReduction)
 
     return firm_prices
 
@@ -174,7 +227,8 @@ def returnInOrderedPricesToServer(priceReduction = 100) -> dict:
 loadSettingsFromConfig()
 
 def main():
-    print(returnInOrderedPricesToServer())
+    returnInOrderedPricesToServer()
+    #savePricesToDatabase()
 
 if __name__ == '__main__':
     main()
