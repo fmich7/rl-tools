@@ -21,7 +21,6 @@ def offers_view():
 def index():
     return redirect('/list')
 
-
 @app.route('/save')
 def save():
     savePricesToDatabase()

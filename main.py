@@ -1,5 +1,6 @@
 import requests
 import json
+import copy
 from bs4 import BeautifulSoup
 
 url_prices = 'https://rl.insider.gg/pl/pc'
@@ -10,9 +11,7 @@ list_shortPaints = list()
 list_searchedItems = list()
 
 itemsPriceData = dict()
-
-#TODO: fix saving prices, ui
-#! FIXED: not existing items handling, item selechtion by its rarity, load empty db
+_priceContainer = None
 
 #loads settings from config
 def loadSettingsFromConfig() -> None:
@@ -34,11 +33,16 @@ def savePricesToDatabase() -> None:
 
 #recives item container from website
 def getPricesContainer():
+    global _priceContainer
+    if _priceContainer is not None:
+        return _priceContainer
+
     site = requests.get(url_prices)
     soup = BeautifulSoup(site.content, 'html.parser')
-    items = soup.find(id=id_itemsContainer)
+    container = soup.find(id=id_itemsContainer)
+    _priceContainer = container
 
-    return items
+    return container
 
 #find items in container
 #items {"normal-items" : list, "special-items": list(dict)}
@@ -105,11 +109,11 @@ def getSearchedItems(items: dict, priceContainer) -> dict:
         
         for j in range(len(list_paints)):
             itemsDict[item_name].update({list_paints[j]: {'price': result[j]}})
-    print(itemsDict)
     return itemsDict
 
 #take minimum price and update the list
 def takeMinPriceFromRange(items: list) -> list:
+    
     for i in range(len(items)):
         for item in items[i]:
             for color in items[i][item]:
@@ -135,30 +139,32 @@ def calculateQuickSellPrice(items: list, value: int) -> list:
 
 #compares current price with old one, and updates item with new informations
 def checkPriceDiffWithDatabase(items: list) -> dict:
+    newItemsDict = items
+
     pricesFromDatabase = dict()
     diffColors = ['e01200', '3ea200']
     try:
         with open('database.json', 'r') as file:
             pricesFromDatabase = json.load(file)[0]
     except json.decoder.JSONDecodeError:
-        return items
+        return newItemsDict
     #l-tabindex
-    for l in range(len(items)):
+    for l in range(len(newItemsDict)):
         for item in pricesFromDatabase:
             for i in pricesFromDatabase[item]:
                 difference = int()
-                if item not in items[l] or i not in items[l][item] or type(items[l][item][i]['price']) is str:
+                if item not in newItemsDict[l] or i not in newItemsDict[l][item] or type(newItemsDict[l][item][i]['price']) is str:
                     continue
-                newPrice = items[l][item][i]['price']
+                newPrice = newItemsDict[l][item][i]['price']
                 oldPrice = pricesFromDatabase[item][i]['price']
                 if oldPrice is str:
                     continue
                 if newPrice != oldPrice:
                     difference = newPrice - oldPrice
                     color = diffColors[difference > 0]
-                    items[l][item][i].update({'color': color, 'difference': difference})
+                    newItemsDict[l][item][i].update({'color': color, 'difference': difference})
     
-    return items
+    return newItemsDict
 
 #returns as offer_view
 def getInOrderedPrices(priceContainer) -> list:
@@ -207,12 +213,13 @@ def returnListedPricesToServer(priceReduction = 100) -> dict:
     items = {"normal-items": list_searchedItems, "special-items": list()}
     prices = [getSearchedItems(items, getPricesContainer())]
     min_prices = takeMinPriceFromRange(prices)
-    checkedPrices = checkPriceDiffWithDatabase(min_prices)
-    firm_prices = calculateQuickSellPrice(checkedPrices, priceReduction)
 
     global itemsPriceData
-    itemsPriceData = min_prices
+    itemsPriceData = copy.deepcopy(min_prices)
 
+    checkedPrices = checkPriceDiffWithDatabase(min_prices)
+    firm_prices = calculateQuickSellPrice(checkedPrices, priceReduction)
+    
     return firm_prices
 
 #returns as offer_view
@@ -227,7 +234,7 @@ def returnInOrderedPricesToServer(priceReduction = 100) -> dict:
 loadSettingsFromConfig()
 
 def main():
-    returnInOrderedPricesToServer()
+    returnListedPricesToServer()
     #savePricesToDatabase()
 
 if __name__ == '__main__':

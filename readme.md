@@ -10,10 +10,10 @@ When it's done run server.py and open **127.0.0.1:5000/** in your browser:
 ## To-do list
 * ~~Add support for selecting items by it's rarity~~
 * Reciving items from data optimization
-* Fix saving prices to file
+* ~~Fix saving prices to file~~
 * Make website look better 
-* Fix issues
-* Add tests
+* ~~Container caching~~
+* ~~Add tests~~
 
 ## Known issues
 * ~~Sometimes checkPriceDiffWithDatabase() is crashing, to fix it just wipe out `database.json` and modify returnListedPricesToServer() to skip that function~~
