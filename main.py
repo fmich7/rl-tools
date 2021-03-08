@@ -53,7 +53,7 @@ def getSearchedItems(items: dict, priceContainer) -> dict:
     for i in items["normal-items"]:
         item = priceContainer.find('tr', attrs={'data-itemenglishname':i})
         if item is None:
-            items.remove(i)
+            items["normal-items"].remove(i)
             continue
         item = item.find_all('td', class_=className)
         itemsDict[i] = dict()
@@ -83,7 +83,7 @@ def getSearchedItems(items: dict, priceContainer) -> dict:
         item_name = list(i.keys())[0]
         item = priceContainer.find('tr', attrs={'data-itemenglishname':item_name, 'data-itemrarity':f'|{i[item_name]["rarity"]}|'})
         if item is None:
-            items.remove(i)
+            items["special-items"].remove(i)
             continue
         #item = item.find('tr', attrs={'data-itemrarity':f'|{i[item_name]["rarity"]}|'})
         item = item.find_all('td', class_=className)

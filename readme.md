@@ -5,19 +5,30 @@ RL-pricetracker is a small python website made in Flask that fetches data from [
 To run this project install its dependecies:  
 `$ pip3 install -r requirements.txt`  
 When it's done run server.py and open **127.0.0.1:5000/** in your browser:  
-` $ python3 server.py `
+` $ python3 server.py `  
+Or just run `run.sh`
 
 ## To-do list
-* ~~Add support for selecting items by it's rarity~~
-* Reciving items from data optimization
-* ~~Fix saving prices to file~~
+* Optimizing receiving prices from data
 * Make website look better 
-* ~~Container caching~~
-* ~~Add tests~~
 
-## Known issues
-* ~~Sometimes checkPriceDiffWithDatabase() is crashing, to fix it just wipe out `database.json` and modify returnListedPricesToServer() to skip that function~~
-
+## Usage
+To change offers edit `config.json`  
+```json
+"my-offers":[
+    { //max 10 items/paints, paints: no-bl-tw-gr-cr-pi-co-sb-bs-sa-li-fo-or-pu
+        "Dueling Dragons": "no-bl-pi-fo",
+        "OEM": {"paints": "bl", "rarity": "veryRare"}
+    }
+]
+```
+To add an item to list view edit the same file
+```json
+"all-items":[
+    "Dueling Dragons",
+    "New item"
+],
+```
 ## Screenshots
 ![List view](https://i.imgur.com/Mdnid8n.png "List view")
 ![Offers view](https://i.imgur.com/MCOqD34.png "Offers view")

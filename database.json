@@ -5,43 +5,43 @@
                 "price": 150
             },
             "Black": {
-                "price": 3400
+                "price": 3500
             },
             "Titanium White": {
-                "price": 17000
+                "price": 18500
             },
             "Grey": {
-                "price": 1200
+                "price": 1400
             },
             "Crimson": {
-                "price": 3300
+                "price": 3500
             },
             "Pink": {
                 "price": 1000
             },
             "Cobalt": {
-                "price": 1000
+                "price": 1200
             },
             "Sky Blue": {
                 "price": "-"
             },
             "Burnt Sienna": {
-                "price": 800
+                "price": 700
             },
             "Saffron": {
-                "price": 900
+                "price": 1200
             },
             "Lime": {
                 "price": "-"
             },
             "Forest Green": {
-                "price": 1000
+                "price": 1100
             },
             "Orange": {
-                "price": 900
+                "price": 800
             },
             "Purple": {
-                "price": 1500
+                "price": 1300
             }
         },
         "Standard": {
@@ -52,10 +52,10 @@
                 "price": 2700
             },
             "Titanium White": {
-                "price": 950
+                "price": 1000
             },
             "Grey": {
-                "price": 600
+                "price": 650
             },
             "Crimson": {
                 "price": 600
@@ -102,7 +102,7 @@
                 "price": 300
             },
             "Crimson": {
-                "price": 900
+                "price": 1000
             },
             "Pink": {
                 "price": 200
@@ -146,7 +146,7 @@
                 "price": 500
             },
             "Crimson": {
-                "price": 1300
+                "price": 1200
             },
             "Pink": {
                 "price": 450
@@ -181,7 +181,7 @@
                 "price": 60
             },
             "Black": {
-                "price": 250
+                "price": 200
             },
             "Titanium White": {
                 "price": 700
@@ -225,25 +225,25 @@
                 "price": "-"
             },
             "Black": {
-                "price": 1400
+                "price": 1500
             },
             "Titanium White": {
-                "price": 1600
+                "price": 1800
             },
             "Grey": {
                 "price": 800
             },
             "Crimson": {
-                "price": 900
+                "price": 1100
             },
             "Pink": {
-                "price": 300
-            },
-            "Cobalt": {
                 "price": 400
             },
-            "Sky Blue": {
+            "Cobalt": {
                 "price": 500
+            },
+            "Sky Blue": {
+                "price": 600
             },
             "Burnt Sienna": {
                 "price": "-"
@@ -255,13 +255,13 @@
                 "price": 300
             },
             "Forest Green": {
-                "price": 200
+                "price": 250
             },
             "Orange": {
-                "price": 350
+                "price": 400
             },
             "Purple": {
-                "price": 400
+                "price": 500
             }
         },
         "Maverick GXT": {
@@ -366,16 +366,16 @@
                 "price": 900
             },
             "Crimson": {
-                "price": 3000
+                "price": 3100
             },
             "Pink": {
                 "price": 900
             },
             "Cobalt": {
-                "price": 900
+                "price": 950
             },
             "Sky Blue": {
-                "price": 1900
+                "price": 2200
             },
             "Burnt Sienna": {
                 "price": 250
@@ -407,13 +407,13 @@
                 "price": 13000
             },
             "Grey": {
-                "price": 1200
+                "price": 1300
             },
             "Crimson": {
                 "price": 1900
             },
             "Pink": {
-                "price": 1000
+                "price": 1100
             },
             "Cobalt": {
                 "price": 1200
@@ -425,7 +425,7 @@
                 "price": 900
             },
             "Saffron": {
-                "price": 1000
+                "price": 1100
             },
             "Lime": {
                 "price": 1200
@@ -492,37 +492,37 @@
                 "price": 6000
             },
             "Titanium White": {
-                "price": 11000
+                "price": 10400
             },
             "Grey": {
-                "price": 5500
+                "price": 5000
             },
             "Crimson": {
-                "price": 4000
+                "price": 3600
             },
             "Pink": {
-                "price": 2100
+                "price": 1800
             },
             "Cobalt": {
-                "price": 2300
+                "price": 2000
             },
             "Sky Blue": {
-                "price": 3800
+                "price": 3700
             },
             "Burnt Sienna": {
-                "price": 1600
+                "price": 1500
             },
             "Saffron": {
-                "price": 2300
+                "price": 2100
             },
             "Lime": {
-                "price": 3100
+                "price": 2900
             },
             "Forest Green": {
-                "price": 2700
+                "price": 2600
             },
             "Orange": {
-                "price": 2300
+                "price": 1900
             },
             "Purple": {
                 "price": 3500
@@ -574,7 +574,7 @@
         },
         "Glorifier": {
             "Normal": {
-                "price": 600
+                "price": 650
             },
             "Black": {
                 "price": "-"
@@ -686,7 +686,7 @@
                 "price": 600
             },
             "Burnt Sienna": {
-                "price": 400
+                "price": 350
             },
             "Saffron": {
                 "price": 500
@@ -797,25 +797,25 @@
                 "price": 900
             },
             "Black": {
-                "price": 11000
+                "price": 15000
             },
             "Titanium White": {
-                "price": 14000
+                "price": 18000
             },
             "Grey": {
-                "price": 3500
-            },
-            "Crimson": {
                 "price": 4000
             },
+            "Crimson": {
+                "price": 5000
+            },
             "Pink": {
-                "price": 3300
+                "price": 3500
             },
             "Cobalt": {
-                "price": 3200
+                "price": 3500
             },
             "Sky Blue": {
-                "price": 5000
+                "price": 6000
             },
             "Burnt Sienna": {
                 "price": 3000
@@ -824,21 +824,21 @@
                 "price": 3800
             },
             "Lime": {
-                "price": 3700
+                "price": 4500
             },
             "Forest Green": {
-                "price": 3700
+                "price": 4000
             },
             "Orange": {
                 "price": "-"
             },
             "Purple": {
-                "price": 5400
+                "price": 5500
             }
         },
         "Big Splash": {
             "Normal": {
-                "price": 950
+                "price": 900
             },
             "Black": {
                 "price": "-"
@@ -929,7 +929,7 @@
                 "price": 1850
             },
             "Black": {
-                "price": 2100
+                "price": 2200
             },
             "Titanium White": {
                 "price": 2600
@@ -947,7 +947,7 @@
                 "price": 1700
             },
             "Sky Blue": {
-                "price": 1900
+                "price": 2000
             },
             "Burnt Sienna": {
                 "price": 1300
@@ -965,12 +965,12 @@
                 "price": 1400
             },
             "Purple": {
-                "price": 1900
+                "price": 1800
             }
         },
         "Stipple Gait": {
             "Normal": {
-                "price": 1650
+                "price": 1600
             },
             "Black": {
                 "price": "-"
@@ -1061,10 +1061,10 @@
                 "price": 1700
             },
             "Black": {
-                "price": 4200
+                "price": 4500
             },
             "Titanium White": {
-                "price": 17000
+                "price": 16500
             },
             "Grey": {
                 "price": "-"
@@ -1199,13 +1199,13 @@
                 "price": 2000
             },
             "Grey": {
-                "price": 900
+                "price": 800
             },
             "Crimson": {
                 "price": 1000
             },
             "Pink": {
-                "price": 1100
+                "price": 900
             },
             "Cobalt": {
                 "price": 900
@@ -1234,7 +1234,7 @@
         },
         "Bubbly": {
             "Normal": {
-                "price": 700
+                "price": 750
             },
             "Black": {
                 "price": "-"
@@ -1325,10 +1325,10 @@
                 "price": 80
             },
             "Black": {
-                "price": 900
+                "price": 950
             },
             "Titanium White": {
-                "price": 3300
+                "price": 3400
             },
             "Grey": {
                 "price": 900

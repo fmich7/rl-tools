@@ -44,7 +44,7 @@
           {
              "Alchemist":"bl",
              "Sunburst":"bl",
-             "OEM":"bl",
+             "OEM": {"paints": "bl", "rarity": "exotic"},
              "Stern":"bl",
              "Neptune":"bl",
              "Octavian":"bl",
