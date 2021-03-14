@@ -49,7 +49,7 @@
              "Neptune":"bl",
              "Octavian":"bl",
              "Invader":"bl",
-             "Reaper": "tw"
+             "Reaper": {"paints": "no", "rarity": "veryRare"}
           },
           {
             "Butterflies": "no",
@@ -71,7 +71,7 @@
              "Sparkles":"tw-cr",
              "RLCS X [Octane]":"bl",
              "Jäger 619":"tw",
-             "Zomba":"no",
+             "Stern": {"rarity": "veryRare", "paints": "bl"},
              "Jolt Bangle III":"tw",
              "Gripstride HX: Inverted":"tw",
              "Maverick GXT":"tw"
@@ -107,7 +107,7 @@
              "Trigon": "no",
              "Magma": "no",
              "Singularity": "no",
-             "Reaper": "no",
+             "Reaper": {"rarity": "import", "paints": "no"},
              "Big Splash": "no"
           }
        ]
@@ -162,20 +162,23 @@
           "pu"
        ],
        "priceCell_colors":{
-          "Normal":"6b624a",
-          "Black":"1a1a1a",
-          "Titanium White":"787878",
-          "Grey":"454545",
-          "Crimson":"6b0d0d",
-          "Pink":"990681",
-          "Cobalt":"06147a",
-          "Sky Blue":"06707a",
+          "Normal":"796c47",
+          "Black":"000",
+          "Titanium White":"fff",
+          "Grey":"919191",
+          "Crimson":"c80808",
+          "Pink":"d000ae",
+          "Cobalt":"1427b5",
+          "Sky Blue":"0db2c1",
           "Burnt Sienna":"7a4206",
-          "Saffron":"969602",
-          "Lime":"007527",
-          "Forest Green":"003d03",
-          "Orange":"7a6600",
-          "Purple":"4b007a"
+          "Saffron":"e9f00f",
+          "Lime":"3eee25",
+          "Forest Green":"1D771D",
+          "Orange":"e39a0e",
+          "Purple":"8600b7"
+       },
+       "account":{
+          "rl_garageNick": "rekjef1"
        }
     }
  }

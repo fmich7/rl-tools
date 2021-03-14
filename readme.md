@@ -9,14 +9,14 @@ When it's done run server.py and open **127.0.0.1:5000/** in your browser:
 Or just run `run.sh`
 
 ## To-do list
-* Optimizing receiving prices from data
-* Make website look better 
+* Optimize receiving prices from website
 
 ## Usage
 To change offers edit `config.json`  
 ```json
 "my-offers":[
-    { //max 10 items/paints, paints: no-bl-tw-gr-cr-pi-co-sb-bs-sa-li-fo-or-pu
+    {
+        "_comment": "max 10 items/paints, paints: no-bl-tw-gr-cr-pi-co-sb-bs-sa-li-fo-or-pu",
         "Dueling Dragons": "no-bl-pi-fo",
         "OEM": {"paints": "bl", "rarity": "veryRare"}
     }
@@ -30,5 +30,5 @@ To add an item to list view edit the same file
 ],
 ```
 ## Screenshots
-![List view](https://i.imgur.com/Mdnid8n.png "List view")
-![Offers view](https://i.imgur.com/MCOqD34.png "Offers view")
+![List view](https://i.imgur.com/7QPGAYP.png "List view")
+![Offers view](https://i.imgur.com/rlSJ8Ge.png "Offers view")

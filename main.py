@@ -10,7 +10,7 @@ list_paints = list()
 list_shortPaints = list()
 list_searchedItems = list()
 
-itemsPriceData = dict()
+itemsPriceData = None
 _priceContainer = None
 
 #loads settings from config

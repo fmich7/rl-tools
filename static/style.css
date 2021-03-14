@@ -1,183 +1,88 @@
 /* ################# [MAIN CSS ] ################# */
 body{
-    background-color: #0B2429;
+    background-color: #2c3039;
     color: white;
     width: 100%;
     height: 100%;
-    display: flex;
-    justify-content: center;
     margin: 0;
-}
-
-.container{
-    width: auto;
 }
 
 header{
-    height: 250px;
+  width: auto;
+  margin: 25px;
+  height: auto;
+  display: flex;
 }
-
-#menu{
-    height: 50px;
-    width: auto;
+header > *{
+  margin: auto 0;
 }
-
-#menu > *{
-    float: left;
+.header-btn{
+  background: inherit;
+  color: white;
+  font-family: 'JetBrains Mono', 'Roboto';
+  border: inherit;
 }
-
-#logo{
-    height: 200px;
+#menu-icon{
+  margin: auto 8px auto 10px;
 }
-
-#logo > *{
-    float: left;
+.menu-iconbar{
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 4px 0;
 }
-#logo-text{
-    margin-left: 20px;
+#fp-holder{
+  margin-left: auto;
 }
-#t1{
-    font-family: 'Fira Code', bold;
-    font-size: 60px;
-    margin: 40px 0 0 0;
+.btn-np{
+  background: #5f8a3e;
+  color: white;
+  width: 50px;
+  height: 30px;
+  padding: 0;
+  font-size: 10px;
+  border: #426c22 solid 1px;
+  border-radius: 4px;
 }
-#t2{
-    color: #F3AC3C;
-    font-family: 'Fira Code', bold;
-    font-size: 30px;
-    margin: 0;
+#input-np{
+  width: 80px;
+  height: 26px;
+  font-size: 10px;
+  border: #fff solid 1px;
+  border-radius: 4px;
+  padding-left: 2px;
 }
 
 main{
-    margin: 10px 0;
+  background: #1d2027;
+  width: auto;
+  height: auto;
+}
+
+#container{
+    margin: 0 auto;
+    padding: 20px 0;
+    width: max-content;
+    height: auto;
 }
 
 footer{
-    background: #343a40;
-    color: white;
-    text-align: center;
-    padding: 5px 0;
+  color: white;
+  text-align: center;
+  width: 100%;
+  padding: 10px 0;
 }
-
 footer > p{
-    margin: 0;
-}
-
-.btn-dark{
-    color: #fff;
-    background-color: #343a40;
-    border-color: #343a40;
-    padding: 10px 20px;
-    font-size: 1rem;
-    line-height: 1.5;
-    border-radius: 5px;
+  margin: 0;
 }
 .btn-save{
-    color: #fff;
-    background-color: #28a745;
-    border-color: #28a745;
-    padding: 10px 20px;
-    font-size: 1rem;
-    line-height: 1.5;
-    border-radius: 5px;
+    width: 180px;
 }
 #save-text{
     margin-bottom: 0;
 }
-.item-line{
-    height: 5px;
-    border-width:0;
-    background-color:#6b624a;
-    border-radius: 20px;
-    z-index: 1;
+#link_rlgarage{
+  text-decoration: none;
+  color: white;
 }
 /* ############################################### */
-
-/* ################# [ TABLE CSS ] ################# */
-.cell{
-    padding: 1px 2px 1px 2px;
-}
-
-.price-cell{
-    text-align: center;
-    min-width: 36px;
-}
-
-table, th, td {
-  border: 1px solid white;
-  border-collapse: collapse;
-}
-
-.o-table{
-    margin-bottom: 20px;
-    width: 820px;
-}
-.top_row {
-    display: flex;
-    width: 100%;
-    float: left;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-}
-
-.top_row > div {
-    display: table-cell;
-}
-.item{
-    width: 70px;
-    height: 60px;
-    text-align: center;
-    margin-right: 5px;
-    margin-left: 5px;
-}
-.item > hr{
-    margin: 0;
-}
-.price-text{
-    margin-bottom: 0px;
-    margin-top: 10px;
-}
-.price-difference{
-    font-size: 10px;
-    margin-top: 0px;
-    margin-bottom: 7px;
-}
-.item-text{
-    font-size: 10px;
-    min-height: 45px;
-    margin-bottom: 0;
-}
-/* ################################################# */
-
-/* ################# [ ICON CSS ] ################# */
-
-#logo-icon{
-    margin:0;
-    display:flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    background: #0B2429;
-    width: 200px;
-    height: 200px;
-}
-#brackets{
-    background: #F3AC3C;
-    width: 180px;
-    height: 150px
-}
-#line{
-    position: absolute;
-    background: inherit;
-    width: 40px;
-    height: 150px;
-}
-#square-inside{
-    position: absolute;
-    background: inherit;
-    width: 130px;
-    height: 100px;
-}
-
-/* ################################################ */

@@ -6,6 +6,7 @@ import json
 app = Flask(__name__)
 
 priceCell_colors = dict()
+rl_garageNick = str()
 
 @app.route("/list")
 def list_view():
@@ -15,7 +16,7 @@ def list_view():
 @app.route("/ordered")
 def offers_view():
     priceReduction = request.args.get('lwr', default=100, type=int)
-    return render_template("offers_view.html", prices=returnInOrderedPricesToServer(priceReduction), colors=priceCell_colors)
+    return render_template("offers_view.html", prices=returnInOrderedPricesToServer(priceReduction), colors=priceCell_colors, nick=rl_garageNick)
 
 @app.route("/")
 def index():
@@ -29,8 +30,9 @@ def save():
 def loadSettingsFromConfig():
     with open("config.json", 'r') as file:
         data = json.load(file)
-        global priceCell_colors
+        global priceCell_colors, rl_garageNick
         priceCell_colors = data['settings']['priceCell_colors']
+        rl_garageNick = data['settings']['account']['rl_garageNick']
 
 if __name__ == "__main__":
     loadSettingsFromConfig()

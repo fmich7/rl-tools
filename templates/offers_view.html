@@ -1,36 +1,41 @@
 {% extends 'html/index.html' %}
 
 {% block body %}
+    <a id="link_rlgarage" target="_blank" href="https://rocket-league.com/trades/{{ nick }}">rl garage offers</a>
     {% for i in range(prices | length) %}
         <table class="o-table">
             <tr>
                 <td>
                     <div class="top_row">
-                        {% for item in prices[i]%}
-                            {% for itemColor in prices[i][item] %}
-                                <div class="item">
+                    {% for item in prices[i]%}
+                        {% for itemColor in prices[i][item] %}
+                            <div class="item">
+                                <div class="item-text-holder">
                                     <p class="item-text">{{ item }}</p>
-                                    <hr class="item-line" style="background-color: #{{ colors[itemColor] }}">
                                 </div>
-                            {% endfor %}
+                                <hr class="item-line" style="background-color: #{{ colors[itemColor] }}">
+                            </div>
                         {% endfor %}
+                    {% endfor %}
                     </div>
                 </td>
                 <td>
                     <div class="top_row">
-                        {% for item in prices[i]%}
-                            {% for itemColor in prices[i][item] %}
-                                <div class="item">
-                                    <p class="price-text" style="background-color: #{{ prices[i][item][itemColor].get('color', '0B2429') }}">{{ prices[i][item][itemColor]['price'] }}</p>
-                                    <p class="price-difference">100</p>
-                                    <hr class="item-line" style="background-color: #{{ colors[itemColor] }}">
+                    {% for item in prices[i]%}
+                        {% for itemColor in prices[i][item] %}
+                            <div class="item">
+                                <div class="item-text-holder">
+                                    <p class="price-text" style="background-color: #{{ prices[i][item][itemColor].get('color', 'none') }}">{{ prices[i][item][itemColor]['price'] }}</p>
+                                    <p class="price-difference">{{ prices[i][item][itemColor].get('difference', '') }}</p>
                                 </div>
-                            {% endfor %}
+                                <hr class="item-line" style="background-color: #{{ colors[itemColor] }}">
+                            </div>
                         {% endfor %}
+                    {% endfor %}
                     </div>
                 </td>
             </tr>
-
+            <caption class="table-offerindex">Offer #{{ i + 1 }}</caption>
         </table>
     {% endfor %}
 {% endblock %}

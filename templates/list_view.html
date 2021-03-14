@@ -5,16 +5,24 @@
             <tr>
                 <td class="cell">Items</td>
                 {% for itemColor in colors %}
-                    <td class="cell price-cell" style="background-color: #{{ colors[itemColor] }}">{{ itemColor }}</td>
+                    {% set _color = 'white' %}
+                    {% if itemColor == 'Titanium White' %}
+                        {% set _color = 'black' %}
+                    {% endif %}
+                    <td class="cell price-cell" style="background-color: #{{ colors[itemColor] }}; color: {{ _color }};">{{ itemColor }}</td>            
                 {% endfor %}
             </tr>
         {% for item in prices[0] %}
             <tr>
                 <td class="cell">{{ item }}</td>
                 {% for itemColor in prices[0][item] %}
-                    <td class="cell price-cell" style="background-color: #{{ prices[0][item][itemColor].get('color', colors[itemColor]) }}">
+                    {% set _color = 'white' %}
+                    {% if itemColor == 'Titanium White' %}
+                        {% set _color = 'black' %}
+                    {% endif %}
+                    <td class="cell price-cell" style="background-color: #{{ prices[0][item][itemColor].get('color', colors[itemColor]) }}; color: {{ _color }};">
                         {{ prices[0][item][itemColor]['price'] }} 
-                        <span style="font-size: 11px;">
+                        <span style="font-size: 11px; color: {{ _color }}">
                             {{ prices[0][item][itemColor].get('difference', '')}}
                         </span>
                     </td>
@@ -24,5 +32,5 @@
         {% endfor %}
     </table>
     <p id="save-text">Save prices to database</p>
-    <input class="btn-save" type="button" id="save" value="Save data" />
+    <input class="btn-np btn-save" type="button" id="save" value="Save data" />
 {% endblock %}

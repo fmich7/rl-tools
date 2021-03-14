@@ -1,0 +1,71 @@
+/* ################# [ TABLE CSS ] ################# */
+.cell{
+    padding: 1px 2px 1px 2px;
+}
+
+.price-cell{
+    text-align: center;
+    min-width: 36px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.o-table{
+    margin-bottom: 20px;
+    width: 810px;
+}
+.top_row {
+    display: flex;
+    width: 100%;
+    float: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.top_row > div {
+    display: table-cell;
+}
+.item{
+    width: 70px;
+    height: 60px;
+    text-align: center;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.item > hr{
+    margin: 0;
+}
+.price-text{
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+.price-difference{
+    font-size: 10px;
+    margin-top: 0px;
+    margin-bottom: 7px;
+}
+.item-text{
+    font-size: 10px;
+    margin-bottom: 0;
+}
+.item-text-holder{
+    min-height: 45px;
+}
+.item-line{
+    height: 5px;
+    border-width:0;
+    background-color:#6b624a;
+    border-radius: 20px;
+    z-index: 1;
+}
+.table-offerindex{
+    caption-side:bottom; 
+    text-align: left;
+    font-size: 10px;
+    font-weight: 600;
+}
+/* ################################################# */
