@@ -1,0 +1,88 @@
+/* ################# [MAIN CSS ] ################# */
+body{
+    background-color: #2c3039;
+    color: white;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+header{
+  width: auto;
+  margin: 25px;
+  height: auto;
+  display: flex;
+}
+header > *{
+  margin: auto 0;
+}
+.header-btn{
+  background: inherit;
+  color: white;
+  font-family: 'JetBrains Mono', 'Roboto';
+  border: inherit;
+}
+#menu-icon{
+  margin: auto 8px auto 10px;
+}
+.menu-iconbar{
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 4px 0;
+}
+#fp-holder{
+  margin-left: auto;
+}
+.btn-np{
+  background: #5f8a3e;
+  color: white;
+  width: 50px;
+  height: 30px;
+  padding: 0;
+  font-size: 10px;
+  border: #426c22 solid 1px;
+  border-radius: 4px;
+}
+#input-np{
+  width: 80px;
+  height: 26px;
+  font-size: 10px;
+  border: #fff solid 1px;
+  border-radius: 4px;
+  padding-left: 2px;
+}
+
+main{
+  background: #1d2027;
+  width: auto;
+  height: auto;
+}
+
+#container{
+    margin: 0 auto;
+    padding: 20px 0;
+    width: max-content;
+    height: auto;
+}
+
+footer{
+  color: white;
+  text-align: center;
+  width: 100%;
+  padding: 10px 0;
+}
+footer > p{
+  margin: 0;
+}
+.btn-save{
+    width: 180px;
+}
+#save-text{
+    margin-bottom: 0;
+}
+#link_rlgarage{
+  text-decoration: none;
+  color: white;
+}
+/* ############################################### */
