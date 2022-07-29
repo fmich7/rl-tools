@@ -1,5 +1,3 @@
-<style>h2,h3,h4 { border-bottom: 0; } </style>
-
 # rl-tools
 This repo contains two separate projects made for rocket league.
 * [Price tracker](#price-tracker)
