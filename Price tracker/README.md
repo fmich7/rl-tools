@@ -1,5 +1,5 @@
-## <center id="pt">**Price tracker**</center>
-### <center>track changes in item prices</center>
+## <p align="center">**Price tracker**</p>
+### <p align="center">track changes in item prices</p>
  
 ### <center>**\*\* Not working due to [www.rl.insider.gg](https://www.rl.insider.gg) skeleton loading \*\***</center>
 

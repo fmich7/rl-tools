@@ -1,12 +1,14 @@
+<style>h2,h3,h4 { border-bottom: 0; } </style>
+
 # rl-tools
 This repo contains two separate projects made for rocket league.
-* [Price tracker](#pt)
-* [Epic Games custom map changer](#mc)
+* [Price tracker](#price-tracker)
+* [Epic Games custom map changer](#map-changer)
 
 <br />
 
-## <center id="pt">**Price tracker**</center>
-### <center>track changes in item prices</center>
+## <p align="center">**Price tracker**</p>
+### <p align="center">track changes in item prices</p>
  
 ### <center>**\*\* Not working due to [www.rl.insider.gg](https://www.rl.insider.gg) skeleton loading \*\***</center>
 
@@ -54,8 +56,8 @@ To add an item to the list edit the same file
 
 <br/>
 
-## <center id="mc">**Map changer**</center>
-### <center>Allows to play Steam custom maps while playing on Epic Games</center>
+## <p align="center">**Map changer**</p>
+### <p align="center">Allows to play Steam custom maps while playing on Epic Games</p>
 
 <br />
 

@@ -1,5 +1,5 @@
-## <center id="mc">**Map changer**</center>
-### <center>Allows to play Steam custom maps while playing on Epic Games</center>
+## <p align="center">**Map changer**</p>
+### <p align="center">Allows to play Steam custom maps while playing on Epic Games</p>
 
 <br />
 
